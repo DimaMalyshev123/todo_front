@@ -1,0 +1,52 @@
+<!-- <div class="main">
+  <div class="container">
+    <h1 *ngIf="nothingTodo">Nothing Todo, just relax</h1>
+
+    <app-list-todos
+      [toDoList]="toDoList"
+      [filter]="filter"
+      (toggleText)="toggleText($event)"
+      (removeTodos)="removeTodos($event)"
+      [isLoad]="isLoading"
+    >
+    </app-list-todos>
+
+    <app-some-button
+      [buttonText]="'All tasks'"
+      (someFunction)="changeFilter('all')"
+    ></app-some-button>
+    <app-some-button
+      [buttonText]="'Active todos'"
+      (someFunction)="changeFilter('active')"
+    ></app-some-button>
+    <app-some-button
+      [buttonText]="'Completed todos'"
+      (someFunction)="changeFilter('completed')"
+    ></app-some-button>
+    <app-some-button
+      [buttonText]="'All completed'"
+      (someFunction)="allCompleted()"
+    ></app-some-button>
+    <app-some-button
+      [buttonText]="'Remove completed'"
+      (someFunction)="removeCompleted()"
+    ></app-some-button>
+    <br />
+    Selected filter: {{ _state.filter }}
+    <br />
+    Selected item: {{ _state.selectedTodo | json }}
+    <br />
+    List length:
+    <ng-container *ngIf="_state.todos"> {{ _state.todos.length }}</ng-container>
+  </div>
+
+  <div class="container">
+    <app-input-form
+      (function)="modeFormAdd ? addToDo($event) : editToDo($event)"
+      [btnText]="ButtonText"
+      [todo]="selected"
+    >
+    </app-input-form>
+  </div>
+</div> -->
+<div>test</div>
